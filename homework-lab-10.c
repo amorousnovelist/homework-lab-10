@@ -45,6 +45,7 @@ void main()
 		printf("Введите значение стороны ПРАВИЛЬНОГО ЧЕТЫРЕХУГОЛЬНИКА: ");
 		scanf("%d", &side);
 		draw_square(side);
+		break;
 	}
 	default: printf("ВВЕДЕНА НЕСУЩЕСТВУЮЩАЯ ОПЕРАЦИЯ: %d. Попробуйте заново\n", choose);
 	}
